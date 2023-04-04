@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/ic_baseline_home_24"/>
+        <item
+            android:id="@+id/info"
+            android:title="About Us"
+            android:icon="@drawable/ic_baseline_info_24"/>
+        <item
+            android:id="@+id/map"
+            android:title="Our branches"
+            android:icon="@drawable/ic_baseline_map_24"/>
+    </group>
+    <item
+        android:id="@+id/services"
+        android:title="Our Services">
+        <menu>
+            <item
+                android:id="@+id/Sofacleaning"
+                android:title="Sofa Cleaning"/>
+            <item
+                android:id="@+id/CarpetCleaning"
+                android:title="Carpet Cleaning" />
+            <item
+                android:id="@+id/FloorCleaning"
+                android:title="Floor Cleaning" />
+            <item
+                android:id="@+id/RoofCleaning"
+                android:title="Roof Cleaning"/>
+
+        </menu>
+    </item>
+
+    <item
+        android:title="Rate us">
+        <menu>
+            <item
+                android:id="@+id/star1"
+                android:title="1 Star"
+                android:icon="@drawable/ic_baseline_star_rate_24"/>
+            <item
+                android:id="@+id/star3"
+                android:title="3 Star"
+                android:icon="@drawable/ic_baseline_star_rate_24"/>
+            <item
+                android:id="@+id/star5"
+                android:title="5 Star"
+                android:icon="@drawable/ic_baseline_star_rate_24"/>
+        </menu>
+    </item>
+
+</menu>
